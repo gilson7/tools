@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<title>Cauculadora</title>
+	<link rel="stylesheet" href="st.css">
+	<link rel="shortcut icon" href="calc.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+	<div id="logo">
+	<img src="calc.png">
+	<div class="inline">Seven Ca7c</div>
+</div>
+<div id="back"></div>
+
+<div id="caucu">
+
+<div id="visor">
+
+<input type="text"  id="lcd" >
+	
+
+</div>
+
+
+<div id="mm">
+	<div id="numbers">
+		
+
+		<button class="number" onclick="clean()" >c</button>
+		
+		<button class="number" value="(" >(</button>	
+		
+		<button class="number" value=")" >)</button>
+
+
+
+		<button class="number" value="7" >7</button>
+		
+		<button class="number" value="8" >8</button>	
+		
+		<button class="number" value="9" >9</button>
+		
+		<button class="number" value="4" >4</button>
+		
+		<button class="number" value="5" >5</button>	
+		
+		<button class="number" value="6" >6</button>
+
+		<button class="number" value="1" >1</button>
+		
+		<button class="number" value="2" >2</button>	
+		
+		<button class="number" value="3" >3</button>
+
+		<button class="number" value="0" >0</button>
+		
+		<button class="number" value="."  > .  </button>
+	
+		<button class="number" onclick="igual()">=</button>
+
+
+
+	</div>
+
+<div id="oper">
+
+	<button class="number" onclick="back()" >
+		<span class="material-symbols-outlined" style="font-size: 30px;">
+			backspace
+		</span>
+	</button>
+
+	<button class="number" value="÷" >÷</button>	
+	
+	<button class="number" value="×" >×</button>
+
+	<button class="number" value="-" >-</button>
+
+	<button class="number" value="+" >+</button>
+</div>
+</div>
+
+</div>
+
+<script src="sc.js"></script>
+<center> <p class="copy" id="copy">&copy;GSEVEN</p> </center>
+</body>
+</html>

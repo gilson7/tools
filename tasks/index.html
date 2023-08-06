@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="tasks.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <title>TASKS</title>
+</head>
+<body>
+<div id="aviso3">Saved</div>
+<div id="aviso2">
+    Tem certeza de que deseja excluir essa nota <br>
+<button class="options" id="optionYes">excluir</button>
+<button class="options" id="optionNo">cancelar</button>
+</div>
+<div id="bomy">
+    <div id="background"></div>
+        <div id="ups">
+                <a href="index.html" id="logolink"><div id="logobody"><img id="logo" src="icones/title.svg" alt=""></div></a>
+                <div id="texture"></div>
+        </div>
+    <div id="notas">
+    </div>   
+</div>
+<div id="form">
+    <div id="topbar">
+        <div id="x" onclick="closeDisplay()">×</div>
+        <input id="crea" type="button" value="save" onclick="create()">
+        <input type="text" id="tittle" placeholder="titúlo">
+    </div>
+    <textarea id="txtarea" name="Text1" cols="40" rows="5" placeholder="escreva  o texto aqui"></textarea>
+</div>    
+<div class="cons" id="cons"></div>    
+<div id="mais" onclick="newNote()"><img src="icones/x.png" width="30px"></div>   
+<script src="script.js"></script>
+</body>
+</html>

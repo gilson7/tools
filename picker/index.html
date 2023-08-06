@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="picker.png" type="image/x-icon">
+</head>
+<body>
+    
+ <div id="popup" class="popup">
+     copiado
+ </div>
+   <div class="cont1" id="cont1">
+
+
+
+     <center>
+         <h1>Collor Picker</h1>
+    </center> 
+
+        <div id="inpback">
+            <div id="visor"></div> 
+        </div>
+
+
+        <div class="contc"><input type="range" name="" id="capacity" value="1" step="0.01" max="1"min='0'></div>
+
+        <input   type="text" value="rgb(136, 0, 0)" spellcheck="false" maxlength="0"  id="rgb"><br>
+        <button id="copiar" class="copiar">copiar</button>
+
+        <input type="color" placeholder="tap" name="color" value="rgb(136, 0, 0)" id="color" class="color">
+
+
+
+    </div>
+
+
+
+    <div class="back" id="back" onclick="back()">
+        >
+    </div>
+
+
+
+ <script type="text/javascript" src="vanilla-tilt.js"></script>
+ <script>
+     VanillaTilt.init(document.querySelector("#inpback"), {
+		max: 20,
+		speed: 400,
+        glare:false,
+        maxglare:0,
+	});
+
+ </script>
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<title>Seven Arts</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	
+</head>
+<body>
+	<div id="trans"></div>
+	<nav translate="no">
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<span class="material-symbols-outlined" id="openMenu">
+					menu
+			</span>
+		</label>
+		<label class="logo" onclick="logoFunction()">
+			<img src="icons/favicon.svg" alt="" width="40vh">
+		</label>
+		<ul id="menu">
+			<li onclick="inicio()"><a id="ini" class="btn active"  href="#">Welcome</a></li>
+			<li onclick="artes()" ><a id="art" class="btn" 		href="#">arts</a></li>
+			<li onclick="share()" ><a id="sha" class="btn" 		href="#">Share</a></li>
+			<li><a href="./../../index.html">Gseven</a></li>
+		</ul>
+	</nav>
+	<section id="sec">
+
+		<div id="conteudo">
+			<div id="load">
+					<svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+						<rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2" rx="1">
+							<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s" repeatCount="indefinite" />
+							<animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+							<animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+						</rect>
+						<rect x="8" y="10" width="4" height="10" fill="#333"  opacity="0.2" rx="1">
+							<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+							<animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+							<animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+						</rect>
+						<rect x="16" y="10" width="4" height="10" fill="#333"  opacity="0.2" rx="1">
+							<animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+							<animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+							<animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+						</rect>
+				</svg>
+			</div>
+		
+
+		</div>
+	</section>
+<div id="shadowTop"></div>
+<div id="style"></div>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="script.js"></script>
+<script src="menu.js"></script>
+<script src="api.js"></script>
+
+
+
+</body>
+</html>

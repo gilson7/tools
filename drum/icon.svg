@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-33.992 -26.543 560.535 560.535" width="560.535" height="560.535" xmlns="http://www.w3.org/2000/svg">
+  <rect x="97.421" y="104.87" width="297.708" height="297.708" rx="12" ry="12" style="fill: rgb(85, 11, 11);"/>
+  <g>
+    <rect x="37.154" y="41.786" width="418.243" height="74.95" rx="12" ry="12" style="stroke-width: 0px; stroke: rgb(255, 7, 7); fill: rgb(85, 11, 11);"/>
+    <rect x="-3.147" y="4.302" width="418.243" height="74.95" rx="12" ry="12" style="stroke-width: 0px; stroke: rgb(255, 7, 7); fill: rgb(85, 11, 11);" transform="matrix(0, 1, -1, 0, 116.405998, 44.932999)"/>
+    <rect x="37.154" y="216.25" width="418.243" height="74.95" rx="12" ry="12" style="stroke-width: 0px; stroke: rgb(255, 7, 7); fill: rgb(85, 11, 11);"/>
+    <rect x="37.154" y="385.079" width="418.243" height="74.95" rx="12" ry="12" style="stroke-width: 0px; stroke: rgb(255, 7, 7); fill: rgb(85, 11, 11);"/>
+    <rect x="140.793" y="265.681" width="418.243" height="74.95" rx="12" ry="12" style="stroke-width: 0px; stroke: rgb(255, 7, 7); fill: rgb(85, 11, 11);" transform="matrix(0, 1, -1, 0, 721.078003, -99.007004)"/>
+    <rect x="-3.147" y="4.302" width="418.243" height="74.95" rx="12" ry="12" style="stroke-width: 0px; stroke: rgb(255, 7, 7); fill: rgb(85, 11, 11);" transform="matrix(0, 1, -1, 0, 288.05249, 44.932995)"/>
+  </g>
+  <g style="" transform="matrix(0.944013, 0, 0, 0.944013, 10.272239, 17.721239)">
+    <g>
+      <title>colum1</title>
+      <rect x="-14.215" y="-14.215" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(186, 27, 27);"/>
+      <rect x="170.595" y="-14.215" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(186, 27, 27);"/>
+      <rect x="355.405" y="-14.215" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(186, 27, 27);"/>
+    </g>
+    <g>
+      <title>colum2</title>
+      <rect x="-14.215" y="170.595" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(152, 16, 16);"/>
+      <rect x="170.595" y="170.595" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(152, 16, 16);"/>
+      <rect x="355.405" y="170.595" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(152, 16, 16);"/>
+    </g>
+    <g>
+      <title>colum3</title>
+      <rect x="-14.215" y="355.405" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(124, 15, 15);"/>
+      <rect x="170.595" y="355.405" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(124, 15, 15);"/>
+      <rect x="355.405" y="355.405" width="158.81" height="158.81" rx="12" ry="12" style="fill: rgb(124, 15, 15);"/>
+    </g>
+  </g>
+</svg>
